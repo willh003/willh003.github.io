@@ -2,7 +2,7 @@
 layout: post
 title: "Practices in Combinatorial Testing Relevant to Spacecraft Software
 Verification"
-date: 2023-05-24 22:21:59 +00:00
+date: 2022-08-31 22:21:59 +00:00
 image: /images/ctfsm.png
 categories: other
 author: "Will Huey"
