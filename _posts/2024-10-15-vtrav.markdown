@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Distilling Vision-Language Models for Real-Time Traversability Prediction"
+date: 2024-10-12 22:21:59 +00:00
+image: /images/anymal_site.gif
+categories: other
+author: "Will Huey"
+authors: "<strong>William Huey*</strong>, Sean Brynjolfsson*, Donald Greenberg"
+venue: "Cornell Discover Undergraduate Research in Engineering Showcase"
+paper: https://willh003.github.io/files/vtrav.pdf
+code: https://github.com/willh003/ovt
+poster: https://willh003.github.io/files/dureposter.pdf
+---
+
+Currently, most traversability prediction methods rely on heuristics, human demonstration, or pretraining on a specific set of object classes. We show that large pretrained vision language models can accurately predict traversability. Applying this insight, we distill fast traversability prediction models that run in real time on robot hardware, allowing for long horizon unguided exploration.

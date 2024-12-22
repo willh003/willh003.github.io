@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Time Your Rewards: Learning Temporally Consistent Rewards from a Single Video Demonstration"
+date: 2024-10-30 22:21:59 +00:00
+image: /images/sdtw_plus.png
+categories: research
+author: "Will Huey"
+authors: "Huaxiaoyue Wang*, <strong>William Huey*</strong>, Anne Wu, Yoav Artzi, Sanjiban Choudhury"
+venue: "CoRL 2024 Workshop on Whole-body Control and Bimanual Manipulation"
+paper: https://openreview.net/forum?id=gsgkiuv9BS
+code: https://github.com/portal-cornell/CrossQ/tree/dev/refactor
+---
+
+We show that existing approaches for inferring reward functions from video demonstrations result in temporal inconsistencies: agents complete subtasks in the wrong order, get stuck along the expert trajectory, or fail to stay in the final state. Our approach mitigates this problem, solving humanoid control tasks quickly and efficiently.
