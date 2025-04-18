@@ -1,0 +1,165 @@
+{
+    "basics": {
+      "name": "William Huey",
+      "image": "",
+      "email": "willhu003@gmail.com",
+      "url": "https://www.willhuey.com",
+      "summary": "Computer Science student at Cornell University interested in safe, interactive robotics",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "Ithaca",
+        "countryCode": "US",
+        "region": "New York"
+      },
+      "profiles": []
+    },
+    "work": [
+        {
+            "name": "Research Associate",
+            "position": "Cornell People and Robots Teaching and Learning Lab",
+            "summary": "Imitation learning from videos under Prof. Sanjiban Choudhury",
+            "highlights": [
+              "Discovered a novel approach for learning difficult robotic control tasks from a video",
+              "Achieved >4x improvement above existing baselines on 16 manipulation and humanoid control tasks in simulation",
+              "Presented at a CoRL 2024 workshop and submitted a first-author publication to a top ML conference (in review)"
+            ],
+            "startDate": "2024-09-01",
+            "endDate": "Present",
+            "url": ""
+        },
+      {
+        "name": "Software Engineering Intern",
+        "position": "Amazon Web Services",
+        "url": "",
+        "startDate": "2024-06-01",
+        "endDate": "2024-09-01",
+        "summary": "Cloud infrastructure for packaging and builder tools",
+        "highlights": [
+            "Deployed an AWS microservice to optimize software package storage, projected to save **$50M+** per year",
+          "Developed the application in Java and Typescript using ECS Fargate, DynamoDB, SQS, S3 event notifications, Cloudwatch metrics and alarms, and internal CI/CD pipelines",
+          "Collaborated with developers across multiple teams to identify key design choices",
+          "Wrote extensive unit, integration, and load tests that reflect actual customer request patterns"
+        ]
+      },
+      {
+        "name": "Research Intern",
+        "position": "ETH Zurich Robotic Systems Lab",
+        "summary": "Mobile robot traversability mapping under Prof. Marco Hutter and Prof. Donald Greenberg",
+        "highlights": [
+          "Built a ROS package for mobile robot traversability mapping, resulting in a successful deployment on an ANYmal quadruped",
+          "Proposed a novel method to predict environment traversability given language constraints using VLMs",
+          "Distilled large VLMs into smaller visual networks capable of real-time traversability segmentation",
+          "Presented work at the Rawlings Cornell Research Scholarship Grand Slam, winning first prize of $500"
+        ],
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-01",
+        "url": ""
+      },
+      {
+        "name": "Software Engineering Intern",
+        "position": "NASA",
+        "url": "",
+        "startDate": "2022-05-01",
+        "endDate": "2022-08-01",
+        "summary": "Combinatorial methods for flight control software verification",
+        "highlights": [
+            "Developed a Python application to generate minimal test suites achieving high combinatorial coverage in state-based control systems",
+          "Identified unit tests improving combinatorial coverage of Starship HLS flight control software",
+          "Collaborated closely with NASA engineers and NIST researchers to evaluate integration testing procedures"
+        ]
+      }
+    ],
+    "volunteer": [],
+    "teaching": [],
+    "education": [
+      {
+        "institution": "Cornell University College of Engineering",
+        "location": "Ithaca, NY",
+        "url": "",
+        "area": "Computer Science",
+        "studyType": "B.S.",
+        "startDate": "2021-01-01",
+        "endDate": "2025-01-01",
+        "score": "3.96",
+        "courses": []
+      }
+    ],
+    "awards": [
+      {
+        "title": "Rawlings Cornell Research Scholarship",
+        "date": "2023-01-01",
+        "awarder": "Cornell University",
+        "url": "",
+        "summary": "$8k in open-ended research funding"
+      },
+      {
+        "title": "First Prize at Rawlings Cornell Research Scholarship Grand Slam",
+        "date": "2023-01-01",
+        "awarder": "Cornell University",
+        "url": "",
+        "summary": "$500 prize for research presentation"
+      },
+      {
+        "title": "Dean's List",
+        "date": "2021-01-01",
+        "awarder": "Cornell University",
+        "url": "",
+        "summary": "All semesters"
+      },
+      {
+        "title": "Connecticut Debate State Champion",
+        "date": "2020-04-01",
+        "awarder": "Connecticut Debate Association",
+        "url": "",
+        "summary": ""
+      }
+    ],
+    "certificates": [],
+    "publications": [
+      {
+        "name": "Imitation Learning from a Single Temporally Misaligned Video",
+        "publisher": "In review at top ML conference",
+        "releaseDate": "2025-01-01",
+        "url": "https://arxiv.org/abs/2502.05397",
+        "summary": "First-author publication (equal contribution with Huaxiaoyue Wang) on a novel approach for learning difficult robotic control tasks from video"
+      },
+      {
+        "name": "Time your rewards: Learning Temporally Consistent Rewards from a Single Video Demonstration",
+        "publisher": "CoRL 2024 Workshop on Whole-body Control and Bimanual Manipulation",
+        "releaseDate": "2024-01-01",
+        "url": "https://openreview.net/forum?id=gsgkiuv9BS",
+        "summary": "Co-first-author publication (equal contribution with Huaxiaoyue Wang) presented at CoRL 2024 workshop"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Programming Languages",
+        "level": "Advanced",
+        "icon": "",
+        "keywords": [
+          "Python",
+          "Java",
+          "Typescript"
+        ]
+      },
+      {
+        "name": "Technologies",
+        "level": "Advanced",
+        "icon": "",
+        "keywords": [
+          "Pytorch",
+          "ROS",
+          "Git",
+          "Docker",
+          "AWS",
+          "SQL",
+          "Distributed Training",
+          "CUDA"
+        ]
+      }
+    ],
+    "languages": [],
+    "interests": [],
+    "references": []
+  }
