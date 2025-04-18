@@ -1,0 +1,72 @@
+---
+---
+
+@inreview{huey2025imitationlearningsingletemporally,
+  title       = {Imitation Learning from a Single Temporally Misaligned Video},
+  author      = {William Huey and Huaxiaoyue Wang and Anne Wu and Yoav Artzi and Sanjiban Choudhury},
+  booktitle   = {},
+  year        = {2025},
+  url         = {https://arxiv.org/abs/2502.05397},
+  arxiv       = {https://arxiv.org/abs/2502.05397},
+  code        = {https://github.com/portal-cornell/orca},
+  preview     = {orca.png},
+  publication = {true},
+  tldr        = {To learn from a single video, current approaches leverage an image encoder, distance metric on the encoder's latent space, and distribution-matching algorithm to produce dense rewards for RL. We prove that frame-level distribution matching algorithms cannot accurately model the ground truth reward of a video demonstration. We propose ORCA (ORdered Coverage Alignment), an intuitive algorithm that matches distributions at the sequence level, achieving better performance on 16 video-imitation tasks in two simulation environments.},
+  selected    = {true}
+}
+
+
+@inproceedings{wang2024time,
+  title       = {Time Your Rewards: Learning Temporally Consistent Rewards from a Single Video Demonstration},
+  author      = {Huaxiaoyue Wang and William Huey and Anne Wu and Yoav Artzi and Sanjiban Choudhury},
+  booktitle   = {CoRL 2024 Workshop on Whole-body Control and Bimanual Manipulation: Applications in Humanoids and Beyond},
+  year        = {2024},
+  url         = {https://openreview.net/forum?id=gsgkiuv9BS},
+  openreview  = {https://openreview.net/forum?id=gsgkiuv9BS},
+  code        = {https://github.com/portal-cornell/CrossQ/tree/dev/refactor},
+  preview     = {tyr.png},
+  publication = {true},
+  tldr        = {We show that existing approaches for inferring reward functions from video demonstrations result in temporal inconsistencies: agents complete subtasks in the wrong order, get stuck along the expert trajectory, or fail to stay in the final state. Our approach mitigates this problem, solving humanoid control tasks quickly and efficiently.}
+}
+
+
+
+@project{ovtrav,
+  title       = {Distilling Vision-Language Models for Real-Time Traversability Prediction},
+  author      = {William Huey and Sean Brynjolfsson and Donald Greenberg},
+  booktitle   = {Cornell Discover Undergraduate Research in Engineering Showcase},
+  year        = {2024},
+  url         = {vtrav.pdf},
+  pdf         = {vtrav.pdf},
+  code        = {https://github.com/willh003/ovt},
+  poster      = {dureposter.pdf},
+  preview     = {anymal_site.gif},
+  publication = {false},
+  tldr        = {We show that large pretrained vision language models can accurately predict traversability. We distill fast traversability prediction models that run in real time on robot hardware, allowing for long horizon unguided exploration.
+                 }
+}
+
+
+@project{superedge,
+  title       = {SuperEdge: A CNN-Based Approach for Quadruped Traversability Analysis from Incomplete Observations},
+  author      = {William Huey},
+  booktitle   = {CS 4756: Robot Learning Final Project},
+  year        = {2023},
+  preview     = {superedge.png},
+  pdf         = {superedge.pdf},
+  code        = {https://github.com/willh003/isaac-anymal-runner},
+  video       = {https://www.youtube.com/watch?v=5CyWaL-u3ro&feature=youtu.be},
+  publication = {false},
+  tldr        = {
+                 I demonstrate self-supervised traversability learning in simulation given sparse point cloud observations. To support this project, I developed a navigation stack for legged robots in Nvidia Isaac Sim, which includes traversability estimation, environment graph generation, graph search, and path tracking.
+                 }
+}
+
+@project{superedge,
+  title       = {Practices in Combinatorial Testing Relevant to Spacecraft Software Verification},
+  author      = {William Huey and D. Richard Kuhn and William Stanton},
+  booktitle   = {NASA Summer Intern Symposium},
+  year        = {2022},
+  preview     = {ctfsm.png},
+  publication = {false}
+}
